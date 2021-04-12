@@ -9,17 +9,17 @@ import {
   Alert,
 } from 'react-native';
 
-export default function App() {
+export default function Welcome() {
   return (
     <View>
       <ImageBackground
-        source={require('./src/assets/images/background.png')}
+        source={require('../../assets/images/background.png')}
         style={{
           width: '100%',
           height: '100%',
         }}>
         <Image
-          source={require('./src/assets/images/logo.png')}
+          source={require('../../assets/images/logo.png')}
           width="100"
           height="100"
         />
